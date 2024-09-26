@@ -48,14 +48,14 @@ nav ul li {
 
 .btn-primary {
   padding: 10px 20px;
-  background-color: #6a00ff;
+  background-color: #007bff;
   color: white;
   border-radius: 25px;
   transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
-  background-color: #4a00b5;
+  background-color: #007bff;
 }
 
 /* Hero Section */
@@ -135,7 +135,7 @@ nav ul li {
 
 .service-box h3 {
   font-size: 20px;
-  color: #6a00ff;
+  color: #007bff;
   margin-bottom: 15px;
 }
 
@@ -189,16 +189,6 @@ z
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.pricing-box h3 {
-  color: #6a00ff;
-  margin-bottom: 20px;
-}
-
-.pricing-box p {
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-
 /* Blog Section */
 .blog {
   padding: 80px 20px;
@@ -250,7 +240,7 @@ z
 
 .contact-form button {
   padding: 15px;
-  background-color: #6a00ff;
+  background-color: #007bff;
   color: #fff;
   font-size: 18px;
   border: none;
@@ -259,7 +249,7 @@ z
 }
 
 .contact-form button:hover {
-  background-color: #4a00b5;
+  background-color: #007bff;
 }
 
 .contact-details {
@@ -273,7 +263,7 @@ z
 }
 
 .contact-details a {
-  color: #6a00ff;
+  color: #007bff;
 }
 
 /* Footer */
