@@ -1,0 +1,282 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fd;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Header Section */
+header {
+  background-color: #f5f7fd;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #6a00ff;
+  color: white;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4a00b5;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f7faff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #666;
+  margin: 20px 0;
+}
+
+.hero .btn-primary {
+  margin-top: 20px;
+}
+
+/* Biography Section */
+.biography {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.biography img {
+  width: 200px;
+  height: 200px;
+}
+
+.bio-info {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.bio-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bio-info ul li {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Services Section */
+.services {
+  background-color: #f7faff;
+  padding: 80px 20px;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-box {
+  width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h3 {
+  font-size: 20px;
+  color: #6a00ff;
+  margin-bottom: 15px;
+}
+
+.service-box p {
+  color: #666;
+}
+
+/* Portfolio Section */
+.portfolio {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+.portfolio h2 {
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.portfolio-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.portfolio-item {
+  width: 30%;
+}
+
+.portfolio-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Pricing Section */
+.pricing {
+  padding: 80px 20px;
+  background-color: #f7faff;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.pricing-box {
+  width: 30%;
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-box h3 {
+  color: #6a00ff;
+  margin-bottom: 20px;
+}
+
+.pricing-box p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* Blog Section */
+.blog {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+.blog-posts {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.blog-post {
+  width: 30%;
+  background-color: #f7faff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-post h3 {
+  margin: 15px 0;
+}
+
+/* Contact Section */
+.contact {
+  padding: 80px 20px;
+  background-color: #f7faff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact-form button {
+  padding: 15px;
+  background-color: #6a00ff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #4a00b5;
+}
+
+.contact-details {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact-details p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-details a {
+  color: #6a00ff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  color: #666;
+}
